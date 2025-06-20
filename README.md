@@ -6,10 +6,10 @@ pip install -r requirement.txt
 ```
 ASPP 
 
-| ASPP    | base model | VGG | resnet                         |
+| ASPP       | base model | VGG | resnet                      |
 | ---------- | ---------------------------------------------- |
-| No | 0.384          |  0.626|         0.625                 |
-| Yes |  0.1          |  0.18 |         0.19                  |
+| No         | 0.384         |  0.626|         0.625          |
+| Yes        |  0.1          |  0.18 |         0.19           |
 
 skip-connection
 
