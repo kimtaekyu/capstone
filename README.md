@@ -4,31 +4,106 @@ Dataset Can download Here (https://www.kaggle.com/competitions/lanesegmentationc
 ```
 pip install -r requirement.txt  
 ```
-ASPP 
+1. ASPP 적용 여부
 
-| ASPP       | base model | VGG | resnet                      |
-| ---------- | ---------------------------------------------- |
-| No         | 0.384         |  0.626|         0.625          |
-| Yes        |  0.1          |  0.18 |         0.19           |
+ASPP
 
-skip-connection
+Base Model
 
-| skip connection    | base model | VGG | resnet              |
-| ---------- | ---------------------------------------------- |
-| No | 0.384          |  0.626|         0.625 |
-| Yes |  0.01          |  0.09|         0.11 |
+VGG
 
-Augmenataion 
-| jitter | base model | VGG | resnet                    |
-| ---------- | ---------------------------------------------- |
-| No | 0.384          |  0.626|         0.625 |
-| Yes |  0.42          |  0.664|         0.66 |
+ResNet
 
-| flip  | base model | VGG | resnet                    |
-| ---------- | ---------------------------------------------- |
-| No | 0.384          |  0.626|         0.625 |
-| Yes |  0.28        |  0.42|         0.42 |
+No
 
-| Widget    | Description                                    |
-| ---------- | ---------------------------------------------- |
-| CustomAppbar | 직접 만들어 본 커스텀 앱바입니다.                |
+0.384
+
+0.626
+
+0.625
+
+Yes
+
+0.100
+
+0.180
+
+0.190
+
+2. Skip-Connection 적용 여부
+
+Skip Connection
+
+Base Model
+
+VGG
+
+ResNet
+
+No
+
+0.384
+
+0.626
+
+0.625
+
+Yes
+
+0.010
+
+0.090
+
+0.110
+
+3. Augmentation: Color Jitter
+
+Jitter
+
+Base Model
+
+VGG
+
+ResNet
+
+No
+
+0.384
+
+0.626
+
+0.625
+
+Yes
+
+0.420
+
+0.664
+
+0.660
+
+4. Augmentation: Horizontal Flip
+
+Flip
+
+Base Model
+
+VGG
+
+ResNet
+
+No
+
+0.384
+
+0.626
+
+0.625
+
+Yes
+
+0.280
+
+0.420
+
+0.420
